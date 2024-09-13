@@ -1,0 +1,24 @@
+body{
+    background-image: url(img/blue_abstract_background.jpg);
+    display: grid;
+    grid-column-start: 1;
+  grid-column-end: 4;
+    background-size: cover;
+        grid-row-start: 1;
+  grid-row-end: 3;
+}
+button[type=submit]{
+    border-radius: 14px;
+}
+p{
+    margin-left: 1.5rem;
+}
+.forgot-pass {
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+    display: block;
+    margin-left: 1.5rem;
+    display: grid;
+    justify-content: center;
+}
